@@ -5,7 +5,7 @@ import streamlit as st
 import pandas as pd
 
 #Loading the Model from json file
-with open('/Users/nilaysaraf/Downloads/bitcoin_prophet.json', 'r') as fin:
+with open('bitcoin_prophet.json', 'r') as fin:
     prophet_model = model_from_json(fin.read())
 
 #Preparing Dataframe for Prediction
